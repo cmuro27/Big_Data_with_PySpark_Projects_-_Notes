@@ -11,6 +11,5 @@ import sys
 os.environ['PYSPARK_PYTHON'] = sys.executable    
 os.environ['PYSPARK_DRIVER_PYTHON'] = sys.executable    
     
-Alternatively:  
-You can use Google Colab, and just run:  
+A suitable alternative is to use Google Colab. To install pyspark, you just need to run:    
 !pip install pyspark py4j  
